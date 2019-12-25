@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="1612-defaultfault-rev2-2015-12-04">
+    <Basepaths>/v1/weatherfault</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1563259439893</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description>Yahoo weather proxy</Description>
+    <DisplayName>Weather</DisplayName>
+    <LastModifiedAt>1563259439893</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:7b28cb5eb3e8f66d19e06ce5422e8192d5105c8a9a9d2bd2eb66416b79cdb7413cdd808c6a4240363d14fef0d043c8d65c109a7efaf70c402fac79a599656fe6</ManifestVersion>
+    <Policies>
+        <Policy>Error404</Policy>
+        <Policy>ReturnGenericError</Policy>
+        <Policy>Verify-API-Key-1</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+        <Policy>invalidKey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

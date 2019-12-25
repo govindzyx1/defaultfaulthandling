@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="invalidKey">
+    <DisplayName>invalidKey</DisplayName>
+    <Properties/>
+    <Set>
+        <Headers/>
+        <QueryParams/>
+        <FormParams/>
+        <StatusCode>404</StatusCode>
+        <ReasonPhrase>Not Found</ReasonPhrase>
+        <Path/>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>
